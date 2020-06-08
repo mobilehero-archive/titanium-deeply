@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/deeply",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Native modules that allows you to capture Android deep links with Axway Titanium.",
 	"main": "index.js",
 	"scripts": {
@@ -18,7 +18,7 @@
 			"email": "brenton.house@gmail.com",
 			"url": "https://brenton.house"
 		}
-	],	
+	],
 	"repository": {
 		"type": "git",
 		"url": "github:brentonhouse/titanium-deeply"
@@ -45,7 +45,6 @@
 	"titanium": {
 		"type": "native-module",
 		"platform": {
-			
 			"android": {
 				"moduleid": "ti.deeply",
 				"name": "Ti.Deeply",
