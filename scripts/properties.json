@@ -1,16 +1,17 @@
 {
 
-   "package_name": "@titanium/some-module",
-   "package_description": "Native modules that allows you to to do something with Axway Titanium.",
-   "repo_name": "brentonhouse/titanium-module-template",
-   "ios_module_id": "ti.something.ios",
-   "ios_module_name": "titanium-something-ios",
-   "ios_module_version": "1.2.3",
-   "ios_module_repo_url": "https://github.com/ios-something",
-   "android_module_id": "ti.something.android",
-   "android_module_name": "titanium-something-android",
-   "android_module_version": "3.2.1",
-   "android_module_repo_url": "https://github.com/ios-something"
+   "package_name": "@titanium/deeply",
+   "package_description": "Native modules that allows you to capture Android deep links with Axway Titanium.",
+   "repo_name": "brentonhouse/titanium-deeply",
+   "ios_module_id": "",
+   "ios_module_name": "",
+   "ios_module_version": "",
+   "ios_module_repo_url": "",
+   "android_module_id": "ti.deeply",
+   "android_module_name": "Ti.Deeply",
+   "android_module_version": "1.1.0",
+   "android_module_guid": "7b8608cb-4877-4490-9c93-b6273a76059d",
+   "android_module_repo_url": "https://github.com/caffeinalab/ti.deeply"
 
 
 }

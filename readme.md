@@ -1,9 +1,9 @@
-# @titanium/some-module
+# @titanium/deeply
 
-[![@titanium/some-module](https://img.shields.io/npm/v/@titanium/some-module.png)](https://www.npmjs.com/package/@titanium/some-module)
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=brentonhouse/titanium-module-template)](https://dependabot.com)
+[![@titanium/deeply](https://img.shields.io/npm/v/@titanium/deeply.png)](https://www.npmjs.com/package/@titanium/deeply)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=brentonhouse/titanium-deeply)](https://dependabot.com)
 
-> Native modules that allows you to to do something with Axway Titanium.
+> Native modules that allows you to capture Android deep links with Axway Titanium.
 
 * [📝 Description](#-description)
 * [🚀 Getting Started](#-getting-started)
@@ -17,21 +17,19 @@
 
 This is a repackaging of the following compiled iOS and Android modules for Titanium to allow for installation via npm: 
 
- - [ti.something.ios](https://github.com/ios-something)
- - [ti.something.android](https://github.com/ios-something)
+ - [ti.deeply](https://github.com/caffeinalab/ti.deeply)
 
 ## 🚀 Getting Started
 
-1. Install `@titanium/some-module` in root of project
+1. Install `@titanium/deeply` in root of project
 
 ```bash
-npm install @titanium/some-module
+npm install @titanium/deeply
 ```
 
 ## ✨Features
 
-iOS: `ti.something.ios 1.2.3`
-Android: `ti.something.android 3.2.1`
+Android: `ti.deeply 1.1.0`
 
 
 * [x] Implemented basic APIs exposed by native modules
@@ -39,19 +37,18 @@ Android: `ti.something.android 3.2.1`
 
 ## 📚Learn More
 
-- [ti.something.ios GitHub Repo](https://github.com/ios-something)
-- [ti.something.android GitHub Repo](https://github.com/ios-something)
+- [ GitHub Repo]()
+- [ti.deeply GitHub Repo](https://github.com/caffeinalab/ti.deeply)
 
 ## 📣 Feedback
 
-Have an idea or a comment?  [Join in the conversation here](https://github.com/brentonhouse/titanium-module-template/issues)! 
+Have an idea or a comment?  [Join in the conversation here](https://github.com/brentonhouse/titanium-deeply/issues)! 
 
 ## ©️ Legal
 
 Modules are licensed under Apache 2.0 from
 
-- https://github.com/ios-something
-- https://github.com/ios-something
+- https://github.com/caffeinalab/ti.deeply
 
 Alloy is developed by Appcelerator and the community and is Copyright © 2012-Present by Appcelerator, Inc. All Rights Reserved.
 

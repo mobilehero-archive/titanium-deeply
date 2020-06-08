@@ -1,7 +1,7 @@
 {
-	"name": "titanium-module-template",
+	"name": "@titanium/deeply",
 	"version": "1.0.0",
-	"description": "Native modules that allows you to to do something with Axway Titanium.",
+	"description": "Native modules that allows you to capture Android deep links with Axway Titanium.",
 	"main": "index.js",
 	"scripts": {
 		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
@@ -11,16 +11,23 @@
 		"prepublishOnly": "git pull && bump",
 		"test": "echo \"no test specified\" && exit 0"
 	},
-	"author": "Axway",
+	"author": "Andrea Jonus",
+	"maintainers": [
+		{
+			"name": "Brenton House",
+			"email": "brenton.house@gmail.com",
+			"url": "https://brenton.house"
+		}
+	],	
 	"repository": {
 		"type": "git",
-		"url": "github:brentonhouse/titanium-module-template"
+		"url": "github:brentonhouse/titanium-deeply"
 	},
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/brentonhouse/titanium-module-template/issues"
+		"url": "https://github.com/brentonhouse/titanium-deeply/issues"
 	},
-	"homepage": "https://github.com/brentonhouse/titanium-module-template#readme",
+	"homepage": "https://github.com/brentonhouse/titanium-deeply#readme",
 	"keywords": [
 		"titanium",
 		"mobile",
@@ -38,24 +45,11 @@
 	"titanium": {
 		"type": "native-module",
 		"platform": {
-			"ios": {
-				"moduleid": "ti.something.ios",
-				"name": "titanium-something-ios",
-				"version": "1.2.3",
-				"apiversion": 2,
-				"architectures": [
-					"armv7",
-					"arm64",
-					"i386",
-					"x86_64"
-				],
-				"minsdk": "9.0.0",
-				"guid": ""
-			},
+			
 			"android": {
-				"moduleid": "ti.something.android",
-				"name": "titanium-something-android",
-				"version": "3.2.1",
+				"moduleid": "ti.deeply",
+				"name": "Ti.Deeply",
+				"version": "1.1.0",
 				"apiversion": 4,
 				"architectures": [
 					"arm64-v8a",
@@ -63,7 +57,7 @@
 					"x86"
 				],
 				"minsdk": "9.0.0",
-				"guid": ""
+				"guid": "7b8608cb-4877-4490-9c93-b6273a76059d"
 			}
 		}
 	},
