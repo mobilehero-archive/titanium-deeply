@@ -37,7 +37,6 @@ Android: `ti.deeply 1.1.0`
 
 ## 📚Learn More
 
-- [ GitHub Repo]()
 - [ti.deeply GitHub Repo](https://github.com/caffeinalab/ti.deeply)
 
 ## 📣 Feedback
