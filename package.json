@@ -1,13 +1,13 @@
 {
 	"name": "@titanium/deeply",
-	"version": "1.0.6",
-	"description": "Native modules that allows you to capture Android deep links with Axway Titanium.",
+	"version": "1.0.7",
+	"description": "Axway Amplify modules to capture Android deep links with Appcelerator Titanium SDK.",
 	"main": "index.js",
 	"scripts": {
 		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
 		"postinstall": "npx @titanium/tiapp-xml install",
 		"postuninstall": "npx @titanium/tiapp-xml uninstall",
-		"prepublishOnly": "git pull && bump",
+		"prepublishOnly": "git pull && bump insane",
 		"test": "npm install --ignore-scripts && npm run list"
 	},
 	"author": "Andrea Jonus",
@@ -39,6 +39,15 @@
 		"iphone",
 		"ipad",
 		"titanium-native-module",
+		"plugin",
+		"amplify",
+		"api-builder",
+		"appcelerator-titanium",
+		"titanium-sdk",
+		"titanium-mobile",
+		"titanium-module",
+		"axway-sdk",
+		"axway-amplify",
 		"brenton-house"
 	],
 	"titanium": {
