@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/deeply",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"description": "Axway Amplify modules to capture Android deep links with Appcelerator Titanium SDK.",
 	"main": "index.js",
 	"scripts": {
