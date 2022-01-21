@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/deeply",
-	"version": "1.0.37",
+	"version": "1.0.38",
 	"description": "⭐ Axway Amplify modules to capture Android deep links with Appcelerator Titanium SDK.",
 	"main": "index.js",
 	"scripts": {
@@ -75,7 +75,7 @@
 	"devDependencies": {
 		"@titanium/eslint-config": "1.0.32",
 		"@titanium/essentials": "^1.0.62",
-		"@titanium/polyfill": "^1.0.35",
+		"@titanium/polyfill": "^1.0.36",
 		"eslint": "^8.7.0",
 		"fs-extra": "^10.0.0",
 		"lodash": "^4.17.21"
@@ -92,7 +92,7 @@
 		"@geek/spawn": "^1.0.2",
 		"@geek/spinner": "^1.0.2",
 		"@geek/tld": "^2.0.1-1",
-		"@nativeloop/mobile": "^1.0.26",
+		"@nativeloop/mobile": "^1.0.27",
 		"@titanium/appcelerator": "^6.0.27",
 		"@titanium/authentication": "^1.0.40",
 		"@titanium/authentication-mock": "^1.0.22",
@@ -100,7 +100,7 @@
 		"@titanium/bluebird": "^3.7.32",
 		"@titanium/errors": "^1.0.27",
 		"@titanium/events": "^1.0.40",
-		"@titanium/eventsource": "^1.0.30",
+		"@titanium/eventsource": "^1.0.31",
 		"@titanium/identity": "^2.0.31",
 		"@titanium/json5": "^1.0.24",
 		"@titanium/jsonc": "^1.0.26",
@@ -110,7 +110,7 @@
 		"@titanium/querystring": "^1.0.27",
 		"@titanium/tiapp-xml": "^1.0.37",
 		"@titanium/titanium": "^5.4.33",
-		"@titanium/turbo": "^2.2.53",
+		"@titanium/turbo": "^2.2.54",
 		"nativeloop": "^1.0.23",
 		"tiapp-dir": "^1.0.28"
 	}
